@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <>
       <section className={`flex md:flex-row flex-col justify-center ${styles.paddingY}`}>
-        <img src={photo} alt="photoGrid" className="max-w-[600px] self-center" />
+        <img src={photo} alt="photoGrid" className="sm:max-w-[600px] max-w-[300px]  self-center" />
       </section>
       <div className="ml-[5%]">
         <h1 className='flex-1 font-poppins font-semibold ss:text-[42px]  ss:leading-[120%] leading-[110%] mb-[16px]'>Online Experiences</h1>
